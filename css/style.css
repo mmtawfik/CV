@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.oneimage{
+  border-radius: 50%;
+}
+.center{
+ align-content: center;
+ margin-right:50%;
+}
+body{
+    padding: 10px;
+    margin: 30px;
+    background-image: url(../luke.jpg);
+}
+.me{
+    border: double 3px crimson;
+    font-size: 20px;
+    padding: 13px;
+    margin: 4px;
+    color: hotpink;
+}
+/* unvisited link */
+a:link {
+    color: green;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  a:active {
+    color: yellow;
+  }
+  .myweb{
+      text-align: right;
+      padding: 3px;
+  }
+  .skill tr{
+    padding: 50px;
+    margin: 5px;
+    color: rebeccapurple;
+    
+  }
+  .skill table{
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    color: rebeccapurple;
+    
+  }
+  table,
+td {
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
